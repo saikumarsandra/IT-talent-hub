@@ -1,0 +1,11 @@
+- Bootstrap 
+
+-> css framework for responsive layout 
+-> contains templates for css 
+-> components -> forms, buttons, navbar 
+-> opensource 
+-> responsive grid 
+
+
+grid system -> divided into 12 columns  -> 6*6 , 8*4, 2*6
+

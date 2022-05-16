@@ -1,0 +1,333 @@
+
+April 22
+
+HTML  - hypertext markup language 
+
+
+markup language to create web pages
+Define structure web page 
+Elements to display content 
+Element contains -> Start tag, end tag
+Eg: <p> </p>
+extension .html
+
+
+
+Headings 
+
+
+<h1> </h1>
+
+
+
+Attributes 
+
+provide additional information elements
+
+Key value pair 
+
+
+
+
+
+
+- April 25
+
+HTML
+
+ - Lists
+- Links
+-  Images 
+ - Tables
+
+
+
+
+lists 
+
+- used to group set of related items
+
+
+2 types
+- ordered list 
+- unordered list
+
+
+ordered list 
+- used to create series of steps 
+
+
+unordered list
+
+- used to itemise somme list
+
+
+description / definition list
+- used for 2 part list 
+
+
+
+Links
+
+- used to navigate from one page to another page 
+- tag <a>  anchor tag
+- href attribute
+
+used in 2 ways
+
+- internal Link -> uses relative url -> navigate within the internal pages 
+- external link -> uses absolute url -> navigates to another website
+
+
+
+ Images 
+
+ <img>
+
+ src attribute -> specify the path of image 
+
+ 2 ways 
+
+ - absolute url - links to external image hosted in another website
+ - relative url - links to some image hosted within the website - > no domain name -> ./
+
+
+
+Tables
+
+- used to arrange data into rows and columns
+
+
+- April 27
+
+CSS Basics
+ HTML
+- div and span tags
+- block and inline elements -> two different display values
+
+
+
+CSS selectors
+css box model
+float property 
+
+
+css - cascading style sheets 
+- style the web elements
+- layout, colours, font size, positioning 
+
+
+ can be used in 3 ways 
+
+- inline css - overwrite internal , external
+- internal css -  <style> </style> -> head element
+- external css ( best practice)
+
+
+
+HTML
+div and span tags 
+
+- used for grouping 
+
+
+div 
+-> to group multiple elements 
+-> used as container for other elemwnts 
+
+
+
+span 
+->  to group inline content 
+-> inline container
+ 
+
+
+block elements
+
+- starts in a new line 
+- takes up full width available 
+
+
+eg: div, ol, ul,p,h1-h6
+
+
+inline elements
+
+- does not start in a new line
+- takes only necessary width
+
+eg: span, img , label, input , a 
+
+
+
+CSS selectors
+
+- element selectors 
+- group selectors
+- ID selectors
+- class seletors 
+
+
+
+element selectors 
+
+- if tagname is used for styling 
+
+
+group selector 
+
+- multiple elements are styled at one go and separated with ,
+
+
+ID selectors
+
+id should be always unique 
+
+Note: id can be used multiple times but that's not the purpose of it
+
+
+class selectors
+- to style multiple elements at one go 
+- represented using .
+- one element can have multiple classes seperated by space
+
+represented by #
+
+
+
+
+class seletors 
+
+
+- April 29
+
+css box model
+float property 
+CSS units
+CSS flex box
+Forms
+Nav bar using flex box
+
+
+css box model
+
+- each and every element in css is represented as a box
+- there will be multiple elements
+- content -> heading, paragraph , link any element 
+- padding -> distance between content and edge of element 
+- border  -> spanning across all the element
+- margin  -> spacing bewttn other elements 
+
+
+
+background vs background color
+
+background -> can combine multiple values into on e line 
+multiple values -> color, image, background image properies 
+
+
+background color -> only background color 
+
+
+
+float property 
+
+-> align elements 
+
+
+
+CSS units
+
+- absolute  ->absolute values 
+- relative -> depends on parent 
+- percent
+- em ,rem
+- vw, vh
+- px -> pixels
+- font-size  -> size of font
+- height -> height of element
+- width  -> width of element
+
+
+px - absolute values -> one dot on the screen 
+ 
+percent 
+- relative unit
+- depends on the parent  
+
+
+
+em 
+- relative unit
+- depends on the parent 
+
+1em - 16px default browser sttyle
+
+
+em -> unit is relative to the font size of parent 
+
+rem -> unit is relative to the root font size of HTML document
+
+
+view port units
+vh - height - percent of the screen
+vw  - width - percent of the screen
+
+vh,vh - does not depend on parent element and occupies percentage of screen 
+
+
+- May 4
+
+CSS flex box
+Nav bar using flex box
+
+CSS grid
+mini projects 
+-  using css flex box and grid
+- static website
+
+
+CSS flex box
+
+- one dimensional layout 
+- in css -> property -> display: flex
+
+CSS grid
+- another layout system 
+- two dimensional 
+- in css -> property -> display: grid
+
+fr unit -> fraction of available space 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+h1{
+   background-color: #ff9f43;
+   /* padding-top: 10px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-bottom: 10px; */
+   /* padding: 30px;  */   /* all sides */
+
+     /* first value -> top , bottom , second value -> left, right */
+   /* padding: 30px 15px;  */
+
+
+   /*   first -> top second -> right third -> bottom fourth -> left  */
+   /* padding: 5px 10px 15px 18px; */
+   padding:  20px;
+   margin: 15px;
+   border-width: 3px;
+   border-color: #222f3e;
+   border-style:dashed;
+ 
+}
+
+
+p{
+  background-color: #54a0ff;
+  border-radius: 15px;
+  border-color: #222f3e;
+  border-style: double;
+  padding: 15px;
+  margin: 15px;
+
+
+}
+
+.container
+{
+  background: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat right top;
+  height: 100vh;
+}

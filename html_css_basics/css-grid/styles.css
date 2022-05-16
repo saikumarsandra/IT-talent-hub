@@ -1,0 +1,35 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+   min-height: 150vh;
+   display: grid;
+   /* grid-template-columns: 200px 7rem auto;
+   grid-template-rows: 300px 20rem 200px; */
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   column-gap: 50px;
+   row-gap: 50px;
+
+
+
+}
+
+.cell
+{
+    padding: 2rem;
+    background-color: #f5f6fa;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+
+

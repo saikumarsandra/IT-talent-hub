@@ -1,0 +1,22 @@
+.outer{
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+.inner{
+    background: blue;
+    width: 50%;
+    height: 50%;
+}
+.relative{
+    font-size: 1em;
+}
+
+.absolute{
+    font-size: rem;
+}
+
+div{
+    font-size: 1.5rem;
+}

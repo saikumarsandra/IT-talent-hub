@@ -1,0 +1,14 @@
+.banner
+{
+  border: 1px solid #222f3e;
+  padding: 10px;
+}
+
+img{
+  float: right;
+}
+
+p{
+  clear: left;
+  
+}

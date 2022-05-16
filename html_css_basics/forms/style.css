@@ -1,0 +1,31 @@
+.container
+{
+  background: #c8d6e5;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  text-align: center;
+}
+
+#heading
+{
+  text-align: center;
+}
+
+label
+{
+  padding: 12px 12px 12px 0px;
+}
+
+
+.btn
+{
+  margin: 10px;
+  padding: 5px;
+  background:#222f3e;
+  color: #c8d6e5;
+  font-size: 15px;
+}

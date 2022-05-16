@@ -1,0 +1,129 @@
+Javascript 
+
+- high level object oriented programming language 
+- used in frontend and backend 
+- can be used along with HTML, CSS 
+- server side -> node js  ( backend)
+- modern javascript libraries / framework -> react js , angular js, vue js ( front end)
+
+Differnt versions of javascript 
+
+ES5 -> ES6 / ES 2015 -> ES7 / ES 2016  
+
+ ECMA Script ->  standard 
+
+
+ Different ways of writing javascript code 
+
+3 ways
+
+- inline
+- internal 
+- external 
+
+
+comments
+
+- comments will be ignored 
+- prevent some code execution
+
+
+- single line
+- multi line 
+
+
+variables 
+
+- used to store values
+- different data can be store using variables
+
+Rules 
+
+- variable name should contain only letters/ numbers /underscore / dollar 
+- cannot start with numbers
+- can start with underscore / dollar 
+- cannot use keywords as variable name
+
+keywords -> predefined / reserved words 
+
+var, let, const are the keywords to declare variables 
+
+var -> variable declared with var keyword belongs to window object
+let -> variable declared with let keyword does not belongs to window object
+
+
+const -> value of variable declared with const keyword cannot be changed 
+
+
+Data types 
+
+-> data types are used to store different types of values relsted to types of data 
+
+primitive data types
+
+- number 
+   -> used for decimals and integers 
+   -> all numbers are floating point numbers in js
+   -> 21 -> 21.0
+   
+- string
+   -> used for text
+   -> sequence of characters
+
+- boolean
+    -> logical type -> store only true / false
+    -> take decisions 
+   
+- undefined
+
+-> varibale whose value is not defined 
+-> can be called as empty value
+
+
+
+- null 
+
+-> also used to store empty value
+
+
+- symbol(ES2015) -> value that is unique and cannot be changed
+- big int (ES2020) -> larger integers than the number type can store 
+
+
+
+dynamic typing -> no need to manually define the data type of value stored in variables, automatically data types will be determined 
+
+- May 16
+
+Operators 
+Operator precedence
+
+
+if statement
+ternary operator
+switch statement
+prompt
+== and ===
+for loop,while, do while
+
+
+Operators 
+
+-> usage -> transorm / combine multiple values 
+
+- arithmetic Operators
+- assignment Operators
+- increment / decrement Operators
+- comparision Operators
+- logical Operators
+
+for  - when the number of iterations are fixed 
+
+while - when the number of iterations are not fixed 
+
+while vs do while 
+
+if condition becomes false -> do while executes atleast once
+
+if condition becomes false -> while loop does not gets executed
+

@@ -25,14 +25,7 @@ const greet = () => 'Hello';
 
 console.log(greet());
 
-const factorial = n => {
-    if (n === 0) {
-        return 1;
-    }
-    return n * factorial(n - 1);
-};
 
-console.log(factorial(5));
 
 // array function with array object
 
@@ -199,3 +192,55 @@ const  User = users.map((user) => {
 });
 
 console.log(User);
+
+// fibbonacci using arrow function
+
+fibonacci = (n) => {
+    if (n === 1) {
+        return [0, 1];
+    }
+    let s = fibonacci(n - 1);
+    s.push(s[s.length - 1] + s[s.length - 2]);
+    return s;
+}
+console.log(fibonacci(5));
+
+//  reversing a number using arrow function
+
+reverse = (n) => {
+    return n.toString().split('').reverse().join('');
+}
+console.log(reverse(123));
+
+// factorial
+const factorial = n => {
+    if (n === 0) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+};
+
+console.log(factorial(5));
+
+// checking palindrome using arrow function
+
+palindrome = (str) => {
+    let re = /[\W_]/g;
+    let lowRegStr = str.toLowerCase().replace(re, '');
+    let reverseStr = lowRegStr.split('').reverse().join('');
+    return reverseStr === lowRegStr;
+};
+console.log(palindrome('amma'));
+// print pattrens using arrow function '*'
+
+printPattern = (n) => {
+    for (let i = 0; i < n; i++) {
+        let str = '';
+        for (let j = 0; j <= i; j++) {
+            str += '*';
+        }
+        console.log(str);
+    }
+};
+printPattern(5);
+

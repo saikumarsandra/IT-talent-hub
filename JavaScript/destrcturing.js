@@ -98,5 +98,3 @@ console.log(name,age,hobbies);
 
 const{ hobbies:{first:hobby1}} = employee2;
 console.log(hobby1);
-
-// using alias destructuring

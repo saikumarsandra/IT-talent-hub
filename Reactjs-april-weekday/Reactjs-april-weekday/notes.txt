@@ -1,0 +1,54 @@
+- June 8
+
+React JS 
+-> React js javascript library to build ui ( client side)
+-> works based on components -> individual user interfaces  
+-> purpose of components -> reusability 
+-> open source 
+-> used to develop single page applications 
+-> developed and mainatained by facebook ( 2013)
+
+
+
+babel -> javascript transcompiler -> backward compatability 
+webpack -> javascript module bundler 
+
+
+
+-> npx create-react-app react-basics
+
+-> npx create-react-app .
+
+
+
+html -> class 
+React -> className
+
+
+Components 
+- 2 types 
+
+-> class based components 
+-> functional based components  -> React 16 -> hooks -> clean code 
+
+
+JSX -> javascript xml -> write HTML code -> react application 
+
+
+
+- June 10
+
+Props
+Different ways of passing props
+- passing directly
+- using destructuring
+- using spread operator
+- props as children
+
+
+-> used to avoid code duplication for the data
+
+
+
+
+

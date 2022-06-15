@@ -1,10 +1,7 @@
-
-
+import Counter from './hooks/userState/counter.js';
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-info">Hello World</h1>
-    </div>
+    <Counter/>
   );
 }
 
